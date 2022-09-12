@@ -9,9 +9,7 @@
 		
 		
 		for(i=0; count<num ; i++)
-		{
 			array[i]=0;
-		}
 
 	
 		int s,b;
@@ -40,9 +38,7 @@
 				
 		for(s=0; s<=num ; s++)
 		{	if(array[s]==1)
-			{	
 				printf("%d ",s+1);
-			}
 		}
 
 return 0;
