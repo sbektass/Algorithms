@@ -36,9 +36,7 @@ int k=0;
 		B[j]=0;
 		
 		if(B[k]==0)
-		{
 			k++;
-		}
 		
 		count++;
 		j=A[j];
