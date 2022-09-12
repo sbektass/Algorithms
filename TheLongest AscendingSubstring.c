@@ -53,14 +53,10 @@ int main() {
 	int *A= malloc(n * sizeof(int));
 
 	for(i=0; i<n; i++)
-	{
 		scanf("%d",&A[i]);
-	}
 
 	for(i=0; i<n-1; i++)
-	{
 		A[i]=A[i+1]-A[i];
-	}
 	A[i]=A[i-1]-1;	
 	
 	findlis(A,n);
